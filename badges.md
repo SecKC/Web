@@ -1,1 +1,1 @@
-<a href="https://seckc.org/wp-content/uploads/2015/10/Screen-Shot-2015-10-09-at-5.10.36-PM.png"><img class="aligncenter wp-image-734 " src="https://seckc.org/wp-content/uploads/2015/10/Screen-Shot-2015-10-09-at-5.10.36-PM.png" alt="Screen Shot 2015-10-09 at 5.10.36 PM" width="913" height="520" /></a>
+<a href="https://github.com/SecKC/Web/blob/master/images/badges/Explaination.png"><img class="aligncenter wp-image-734" width="913" height="520" /></a>
