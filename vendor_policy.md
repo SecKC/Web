@@ -19,7 +19,7 @@
 
 ### 1. Must be InfoSec related and bring value to the SecKC audience.
 
-### 2. No product walkthroughs unless it's Free Open Source Software (FOSS)
+### 2. No product walkthroughs unless it's [Free Open Source Software](https://en.wikipedia.org/wiki/Free_and_open-source_software) (FOSS)
 
 ### 3. No Gartner “Quadrant Magic” bullshit.
 
