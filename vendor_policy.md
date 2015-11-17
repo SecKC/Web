@@ -21,6 +21,6 @@
 
 ### 2. No product walkthroughs unless it's Free Open Source Software (FOSS)
 
-### 3. No Gartner “Quadrant Magic” shit
+### 3. No Gartner “Quadrant Magic” bullshit.
 
-### 4. No roadmap, sales projections or customer listing
+### 4. No roadmap, sales projections or customer listings.
