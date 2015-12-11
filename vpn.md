@@ -1,4 +1,4 @@
-<h3><a href="https://seckc.org/wp-content/uploads/2015/10/vpn.zip">DOWNLOAD OVPN CONFIGS HERE: [LINK]</a></h3>
+<h3><a href="https://github.com/SecKC/Web/blob/gh-pages/vpn.zip?raw=true">DOWNLOAD OVPN CONFIGS HERE: [LINK]</a></h3>
 <strong>Credentials:</strong> You must come to a SecKC to get them in person.
 
 <strong>Here is what you need to know about a VPN:</strong> It secures your internet connection to guarantee that all of the data you're sending and receiving is encrypted and secured from prying eyes on the LOCAL NETWORK. While this service doesn't have any bandwidth or download restrictions, it is not for illegal use.
