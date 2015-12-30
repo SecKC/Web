@@ -1,14 +1,1 @@
-| Month  | Speaker(s)  | Title | Duration |
-| :------------ |:---------------:| -----:| -----:|
-| January     | John Benson | "TALK THIS WAY" | 45 Minutes |
-|             | Dave Hull | "Kansa: Incident Response & Open Source in the belly of the best" | 45 Minutes |
-| February    | text | text | text | text |
-| March       | text | text | text | text |
-| April     | text | text | text | text |
-| May    | text | text | text | text |
-| June       | text | text | text | text |
-| July     | text | text | text | text |
-| August    | text | text | text | text |
-| September       | text | text | text | text |
-| October    | text | text | text | text |
-| November    | text | text | text | text |
+<table style="undefined;table-layout: fixed; width: 761px"><colgroup><col style="width: 102px"><col style="width: 99px"><col style="width: 120px"><col style="width: 376px"><col style="width: 64px"></colgroup><tr><th>Month</th><th>Speaker</th><th>Title</th><th>Description</th><th>Duration</th></tr><tr><td>January</td><td><a href="https://twitter.com/jur1st" target="_blank" rel="nofollow"><strong>John Benson</strong></a></td><td>TALK THIS WAY</td><td>This talk will outline some of the do's and don'ts of putting together a talk that won't suck and might put you on a stage larger than you've imagined.</td><td>45 Minutes</td></tr><tr><td></td><td><a href="https://twitter.com/davehull" target="_blank" rel="nofollow">Dave Hull</a></td><td>Kansa: Incident Response &amp; Open Source in the belly of the best</td><td>We'll look at some data collected and analyzed for red-team engagements and see where Kansa shines and I'll talk about where it falls down, some work-arounds and I may briefly mention commercial solutions in both positive and negative lights.</td><td>45 Minutes</td></tr></table>
