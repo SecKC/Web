@@ -1,6 +1,7 @@
 | Month  | Speaker(s)  | Title | Duration |
 | :------------ |:---------------:| -----:| -----:|
-| January     | text | text | text | text |
+| January     | John Benson | "TALK THIS WAY" | 45 Minutes |
+|             | Dave Hull | "Kansa: Incident Response & Open Source in the belly of the best" | 45 Minutes |
 | February    | text | text | text | text |
 | March       | text | text | text | text |
 | April     | text | text | text | text |
