@@ -29,10 +29,10 @@
   </tr>
   <tr>
     <td>February</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><a href="https://twitter.com/HackingDave" target="_blank" rel="nofollow"><strong>Dave Kennedy (ReL1K)</strong></a></td>
+    <td>TBD</td>
+    <td>TDB</td>
+    <td>45 Minutes</td>
   </tr>
   <tr>
     <td>March</td>
@@ -43,10 +43,10 @@
   </tr>
   <tr>
     <td>April</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><a href="https://twitter.com/strandjs" target="_blank" rel="nofollow"><strong>John Strand</strong></a></td>
+    <td>TBD</td>
+    <td>TBD</td>
+    <td>45 Minutes</td>
   </tr>
   <tr>
     <td>May</td>
