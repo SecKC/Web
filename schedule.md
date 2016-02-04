@@ -30,7 +30,7 @@
   <tr>
     <td>February</td>
     <td><a href="https://twitter.com/HackingDave" target="_blank" rel="nofollow"><strong>Dave Kennedy (ReL1K)</strong></a></td>
-    <td>TBD</td>
+    <td>Test</td>
     <td>TDB</td>
     <td>45 Minutes</td>
   </tr>
