@@ -30,8 +30,12 @@
   <tr>
     <td>February</td>
     <td><a href="https://twitter.com/HackingDave" target="_blank" rel="nofollow"><strong>Dave Kennedy (ReL1K)</strong></a></td>
-    <td>Test</td>
-    <td>TDB</td>
+    <td>Social-Engineer Toolkit (SET) v7.0</td>
+    <td>The Social-Engineer Toolkit (SET) v7.0 is on the verge of being released. This new version has a lot of new features, a rewrite for Python3 and more. In this talk we'll be diving down into how to most effectively use SET for offensive capabilities and bypass a number of the preventiative measures out there today. In addition, we'll go into some more advanced discussions on methods you can use on a test to get a little more custom and get around most (if not all) of the prevenative technologies today.</td>
+    <td>45 Minutes</td>
+  <td><a href="https://twitter.com/corykennedy" target="_blank" rel="nofollow"><strong>Cory Kennedy (corykennedy)</strong></a></td>
+    <td>Open Source Threat Intelligence Management</td>
+    <td>Open Source Threat Intelligence Management in 13 minutes 37 seconds or the talk is free.</td>
     <td>45 Minutes</td>
   </tr>
   <tr>
