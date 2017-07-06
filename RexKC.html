@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Example</title>
+<pre id="descramble"></pre>
+<script type="text/javascript">
+
+var Descramble =
+{
+    timer: null,
+    iterations: 0,
+    min_iter: 10,
+    max_iter: 100,
+    delay: 100,
+
+    init: function() {
+        text = [];
+        text.push(' $$$$$$$$$$$$$$$$$$$$$$$$$$$******`` ```` * * *#*R$$$$$$$$$$$$$$$$$$$$$$$$$$$ ');
+        text.push(' $$$$$$$$$$$$$$$$$$$$$$* * *      ..........        #$$$$$$$$$$$$$$$$$$$$$$$ ');
+        text.push(' $$$$$$$$$$$$$$$$$$$# *    .ue@$$$********$$$$Weu.   ` **$$$$$$$$$$$$$$$$$$$ ');
+        text.push(' $$$$$$$$$$$$$$$$# *   ue$$*# * *              `  *$$No.    *R$$$$$$$$$$$$$$$$ ');
+        text.push(' $$$$$$$$$$$$$P *   u@$* *`                          *#$$o.  ^*$$$$$$$$$$$$$$ ');
+        text.push(' $$$$$$$$$$$P *  .o$R *               . .WN.            *#$Nu  `#$$$$$$$$$$$$ ');
+        text.push(' $$$$$$$$$$ *  .@$#         |ou  .oeW$$$$$$$$W             $$u   $$$$$$$$$$$ | ');
+        text.push(' $$$$$$$$#   o$#`      ueL  $$$$$$$$$$$$$$$$ku.            *$$u   *$$$$$$$$$ ');
+        text.push(' $$$$$$$ *  x$P`        ` *$$u$$$$$$$$$$$$$$ *#$$$L             *$o   *$$$$$$$ ');
+        text.push(' $$$$$$ *  d$ *        #$u.2$$$$$$$$$$$$$$$$  #$$$Nu            $$.  #$$$$$$ ');
+        text.push(' $$$$$ *  @$ *          $$$$$$$$$$$$$$$$$$$$k  $$#*$$u           #$L  #$$$$$ ');
+        text.push(' $$$$ *  d$         #Nu@$$$$$$$$$$$$$$$$$$ *  x$$L #$$$o.         #$c  #$$$$ ');
+        text.push(' $$$F  d$          .$$$$$$$$$$$$$$$$$$$$N  d$$$$   *$$$$$u        #$L  #$$$ ');
+        text.push(' $$$  :$F        ..`$$$$$$$$$$$$$$$$$$$$$$$$$$$`    R$$$$$eu.     $$   $$$ ');
+        text.push(' $$!  $$        . R$$$$$$$$$$$$$$$$$$$$$$$$$$$$$.   @$$$$$$$$Nu    |$N  `$$ | ');
+        text.push(' $$  x$        Re$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$uu@$$$$$$$i   #$:        $$  ');
+        text.push(' $E  $$       c 888888888888888888888888     ^*$$$$$$$WW$$$$$$$$N    $$  4 ');
+        text.push(' $~ :$$N. tL i$$$$$$$$$$$$$$$$$$$$$$$$$N       ^#R$$$$$$$$$$$$$$$    9   |$ | ');
+        text.push(' $  t$$$$u$$W$$$$$$$$$$$$$$!$$$$$$$$$$$$$&       . c?*$$$R$$$$$$$    |$k  $ | ');
+        text.push(' $  @$$$$$$$$$$$$$$$$$$$$ *E F!$$$$$$$$$$. *        +.@\* x .*$$ *   $B  $ ');
+        text.push(' $  $$$$$$$$$$$$$$$$$)#F     $$$$$$$$$$$           `  -d>x **=. *`    $$  $ ');
+        text.push(' $  $$$$$$$$$$?$$R |$ `#d$ * *    #$$$$$$$$$ > .                 *       $$  $ | ');
+        text.push(' $  $$$$$$$($$@$ *` P *@$.@# *!    *$$$$$$$L!.                        $$  $ | ');
+        text.push(' $  99999999#$L  !  * <$$`           **$$$$$NL: *z  f                  $E  $ | ');
+        text.push(' $> ?$$$$ $$$b$^      .$c .ueu.        ` *$$$$b *x *#   *               x$!  $ ');
+        text.push(' $k  $$$$N$  *$$L:$oud$$$` d$ .u.          *$$$$$o. * #f.              $$   $ | ');
+        text.push(' $$  R$ * *$$o.$ *$$$$ * * * ue$$$P *` *c           *$$$$$$Wo |       :$F  t$ | ');
+        text.push(' $$:  |$&  $*$$u$$$$u.ud$R  `    ^             *#*****               @$   $$ | ');
+        text.push(' $$N  #$: E 3$$$$$$$$$                                             d$ *  x$$ | ');
+        text.push(' $$$k  $$   F *$$$$*                                              :$P   $$$ ');
+        text.push(' $$$$   |$b                                                      .$P   $$$$ | ');
+        text.push(' $$$$b  `$b                                                    .$$   @$$$$ | ');
+        text.push(' $$$$$N   *$N                 RexKC Rules                      .$P   @$$$$$ ');
+        text.push(' $$$$$$N   |*$c                                               u$#  .$$$$$$$ | ');
+        text.push(' $$$$$$$$.   *$N.                                           .@$ *  x$$$$$$$$ ');
+        text.push(' $$$$$$$$$o   #$N.                                       .@$#  .@$$$$$$$$$ ');
+        text.push(' $$$$$$$$$$$u  `#$Nu                                   u@$#   u$$$$$$$$$$$ | ');
+        text.push(' $$$$$$$$$$$$$u    *R$o.                             ue$R    u$$$$$$$$$$$$$ | ');
+        text.push(' $$$$$$$$$$$$$$$o.  ^#$$bu.                     .uW$P `  .u$$$$$$$$$$$$$$$ ');
+        text.push(' $$$$$$$$$$$$$$$$$$u   ` *#R$$Wou..... ....uueW$$*#    .u@$$$$$$$$$$$$$$$$$ | ');
+        text.push(' $$$$$$$$$$$$$$$$$$$$Nu.    `  #***$$$$$***   `    .o$$$$$$$$$$$$$$$$$$$$$ | ');
+        text.push(' $$$$$$$$$$$$$$$$$$$$$$$$$eu..               ...ed$$$$$$$$$$$$$$$$$$$$$$$$ | ');
+        text.push(' $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$NWWeeeeedW@$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ | ');
+        text.push(' $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ | ');
+
+        solved = [];
+        this.timer = setInterval(solved = this.writeAll.bind(this, text, solved), this.delay);
+    },
+
+    writeAll: function(text) {
+        pos = 0;
+        output = [];
+
+        while (pos < text.length) {
+
+            if (typeof(solved[pos]) !== "undefined") {
+                output[pos] = text[pos];
+            } else {
+                roll = Math.floor(Math.random() * 10);
+
+                if (roll === 0 && this.iterations > this.min_iter) {
+                    solved[pos] = true;
+                } else {
+                    shuffled = this.shuffle(text[pos].split("")).join("");
+                    output[pos] = shuffled;
+                }
+            }
+
+            this.write(output.join("\n"));
+            pos++;
+        }
+
+        this.iterations++;
+
+        if (this.iterations > this.max_iter) {
+            clearInterval(this.timer);
+        }
+
+        return solved;
+    },
+
+    write: function(out) {
+        document.getElementById("descramble").innerHTML = out;
+    },
+
+    shuffle: function(array) {
+        var currentIndex = array.length, temporaryValue, randomIndex;
+        while (0 !== currentIndex) {
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+        return array;
+    }
+}
+
+Descramble.init();
+</script>
+</html>
