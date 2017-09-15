@@ -1,6 +1,6 @@
 <h3><a href="https://github.com/SecKC/Web/raw/master/VPN.zip?raw=true">DOWNLOAD NEW OVPN CONFIGS HERE: [LINK]</a></h3>
 Please Note:  These configs were updated 09/15/2017. If you had prior configs, please delete and re-install these new ones. Naming scheme for files are:
-AzireVPN-Country-Port.ovpn.  The files in the zip contain configurations for both random (rdm) and port 443 (443) UDP ports. If you need or desire something else, please visit the AzireVPN site and generate your own configs. 
+AzireVPN-Country-Port.ovpn.  The files in the zip contain configurations for both random (rdm) and port 443 (443) UDP ports. If you need or desire something else, please visit the AzireVPN site and generate your own configs. <br>
 
 <b>Country Codes:</b><br>
 <b>ca</b> = Toronto, Canada<br>
@@ -9,7 +9,7 @@ AzireVPN-Country-Port.ovpn.  The files in the zip contain configurations for bot
 <b>uk</b> = London, United Kingdom<br> 
 <b>us</b> = Miami, FL<br>
 
-<strong>Credentials:</strong> You must come to a SecKC to get them in person.
+<strong>Credentials:</strong> You must come to a SecKC to get them in person, or join our slack and ask someone how to get them.
 
 <strong>Here is what you need to know about a VPN:</strong> It secures your internet connection to guarantee that all of the data you're sending and receiving is encrypted and secured from prying eyes on the LOCAL NETWORK. While this service doesn't have any bandwidth or download restrictions, it is not for illegal use.
 
