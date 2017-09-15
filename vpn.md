@@ -11,6 +11,15 @@ AzireVPN-Country-Port.ovpn.  The files in the zip contain configurations for bot
 
 <strong>Credentials:</strong> You must come to a SecKC to get them in person, or join our slack and ask someone how to get them.
 
+Want Multi-Hop?  Connect to VPN and then use SOCKS5
+Location	Hostname	Ports
+Global	socks.azirevpn.net	tcp/1080
+CA Toronto	ca.socks.azirevpn.net	tcp/1080
+ES Malaga	es.socks.azirevpn.net	tcp/1080
+SE Stockholm	se.socks.azirevpn.net	tcp/1080
+UK London	uk.socks.azirevpn.net	tcp/1080
+US Miami	us.socks.azirevpn.net	tcp/1080
+
 <strong>Here is what you need to know about a VPN:</strong> It secures your internet connection to guarantee that all of the data you're sending and receiving is encrypted and secured from prying eyes on the LOCAL NETWORK. While this service doesn't have any bandwidth or download restrictions, it is not for illegal use.
 
 <strong>It is important that you understand this:</strong> Although this VPN service claims a 'No Logging' policy, the usage of this VPN is not 'guaranteed anonymity.' What you do and how you act on the internet can expose who you are.  This is simply an encrypted tunnel to protect you on your local segment, when you exit the VPN node, you are on the internet. Email or other web services can expose your identity. If you have any concerns, talk to someone at SecKC (your neighbor will do), this is a fun topic!
